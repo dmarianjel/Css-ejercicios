@@ -1,0 +1,33 @@
+/* comentarios alinear texto en el centro */
+/*text-aling nos sirve para alinear imagenes y texto*/
+body{
+	text-align: center;
+	/*font-family: 'Pangolin', cursive; */font-family: 'Shadows Into Light', cursive;
+}
+/* como llamar elemento y señalar el color( mismo nombre que en html)*/
+.baner-color { /* identación y llaves*/
+	/*background-color: purple; color en ingles*/
+	/*background-color: #AB8FCE; color hexadecimal*/
+	background-color:rgb(2192,192,192);
+	padding-bottom: 20px; /*dar espacio a los bloques*/
+}
+/* cambiar color textos*/
+p{
+	color: rgb(0,128,128); /*color a título 1  */
+	
+	/* cambiar tipografía*/
+}
+img{
+	/*width: 200px;
+	height:400px;*/
+	.Grupo-imagenes{
+	width: 400px;
+	height:400px;
+	}
+
+	/* hacer rl separador*/
+	.Enlaces{
+		border-top: : 1px solid black; /* solid, dotted, dashed, double. groove, ridge 
+		(siempre debo dar el tamaño y el tipo de línea, pero el color es opcional ya que es negro por deecto)*/
+	}
+}
